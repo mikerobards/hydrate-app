@@ -19,7 +19,7 @@ header {
   color: #7795e7;
 }
 
-.select-goal {
+#select-goal {
   background-color: #b0c9ec;
   width: 200px;
   padding: 10px;
@@ -46,4 +46,9 @@ input[type="submit"] {
   margin-top: 10px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.output {
+  text-align: center;
+  font-weight: bold;
 }

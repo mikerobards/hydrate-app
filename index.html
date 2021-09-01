@@ -16,17 +16,20 @@
   <body>
     <header>Hydrate!</header>
 
-    <form class="select-goal">
+    <form id="select-goal">
       <p>How much water would you like to drink today?</p>
       <input type="number" id="goal" placeholder="8" />
       <br />
-      <input type="radio" id="oz" value="OZ" />
+      <input type="radio" id="oz" value="oz" name="unit" />
       <label for="oz">oz</label>
-      <input type="radio" id="ml" value="ML" />
+      <input type="radio" id="ml" value="ml" name="unit" />
       <label for="ml">ml</label>
       <br />
       <input type="submit" value="Set Goal" />
     </form>
+
+    <div class="output"></div>
+
     <script src="index.js"></script>
   </body>
 </html>
