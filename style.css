@@ -9,3 +9,9 @@ body {
 *::after {
   box-sizing: border-box;
 }
+
+header {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
