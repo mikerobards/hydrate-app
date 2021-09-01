@@ -2,6 +2,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #c0fdff;
+  font-family: "Noto Sans SC", sans-serif;
 }
 
 *,
@@ -14,4 +16,34 @@ header {
   font-family: "Anton", sans-serif;
   text-align: center;
   font-size: 2rem;
+  color: #7795e7;
+}
+
+.select-goal {
+  background-color: #b0c9ec;
+  width: 200px;
+  padding: 10px;
+  margin: 5em auto;
+  border-radius: 10%;
+  text-align: center;
+  font-weight: 700;
+}
+
+input {
+  margin: 5px;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+input[type="submit"] {
+  border-radius: 10px;
+  width: auto;
+  height: 30px;
+  background-color: #90a4ee;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }

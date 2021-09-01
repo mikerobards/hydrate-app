@@ -8,10 +8,25 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
     </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap");
+    </style>
     <title>Hydrate!</title>
   </head>
   <body>
     <header>Hydrate!</header>
+
+    <form class="select-goal">
+      <p>How much water would you like to drink today?</p>
+      <input type="number" id="goal" placeholder="8" />
+      <br />
+      <input type="radio" id="oz" value="OZ" />
+      <label for="oz">oz</label>
+      <input type="radio" id="ml" value="ML" />
+      <label for="ml">ml</label>
+      <br />
+      <input type="submit" value="Set Goal" />
+    </form>
     <script src="index.js"></script>
   </body>
 </html>
